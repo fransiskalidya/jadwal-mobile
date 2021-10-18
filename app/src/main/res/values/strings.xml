@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ScheduleProject</string>
+    <string name="judul">MySchedule.</string>
+    <string name="subjudul">Jadwal Sidang Skripsi dan Sempro Mahasiswa Polinema</string>
+    <string name="textPassword">Lupa kata sandi ?</string>
+    <string name="login">Login</string>
+    <string name="signin">Belum punya akun ? Silahkan daftar</string>
+    <string name="SignIn">SIGN IN</string>
+    <string name="judul2">REGISTER</string>
+    <string name="save">SIMPAN</string>
+</resources>

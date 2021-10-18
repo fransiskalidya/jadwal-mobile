@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainRegister">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mainTitleCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="@color/white">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="420dp"
+            android:src="@drawable/desain" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/desainku"
+            android:layout_marginTop="510dp"/>
+
+        <TextView
+            android:id="@+id/judulRegistrasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="290dp"
+            android:text="P O L I N E M A "
+            android:textColor="@color/Blue"
+            android:layout_marginRight="50dp"
+            android:textSize="16pt"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/grad1"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="300dp"
+            android:backgroundTint="@color/lightOrange"/>
+
+        <TextView
+            android:id="@+id/registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="140dp"
+            android:text="@string/judul2"
+            android:textColor="@color/Blue"
+            android:layout_marginRight="100dp"
+            android:textSize="15pt"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mainTitle1Card"
+            android:layout_width="390dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/white">
+
+
+            <EditText
+                android:id="@+id/edtnama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logo"
+                android:layout_marginLeft="45dp"
+                android:gravity="center"
+                android:hint="Nama"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:text=""
+                android:textSize="6pt" />
+
+            <ImageView
+                android:layout_marginRight="300dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/user_login"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mainTitle2Card"
+            android:layout_width="390dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/white">
+
+            <EditText
+                android:id="@+id/nim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logo"
+                android:layout_marginLeft="45dp"
+                android:gravity="center"
+                android:hint="NIM"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:text=""
+                android:textSize="6pt" />
+
+            <ImageView
+                android:layout_marginRight="350dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nim"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mainTitle3Card"
+            android:layout_width="390dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/white">
+
+            <EditText
+                android:id="@+id/prodi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logo"
+                android:layout_marginLeft="45dp"
+                android:gravity="center"
+                android:hint="Prodi"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:text=""
+                android:textSize="6pt" />
+
+            <ImageView
+                android:layout_marginRight="350dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/prodi"/>
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="400dp"
+                android:src="@drawable/graduation2" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mainTitle4Card"
+            android:layout_width="390dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/white">
+
+            <EditText
+                android:id="@+id/pswrd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logo"
+                android:layout_marginLeft="45dp"
+                android:gravity="center"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:text=""
+                android:textSize="6pt" />
+
+
+            <ImageView
+                android:layout_marginRight="300dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/password"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="90dp"
+            android:textSize="15dp"
+            android:text="@string/SignIn"
+            android:backgroundTint="@color/DeepPink"/>
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="135dp"
+            android:src="@drawable/graduation2"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>
