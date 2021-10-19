@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainDashboard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lightOrange"
+    android:orientation="vertical"
+    tools:context=".MainProfile">
+
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/desainAtas"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginBottom="420dp"-->
+    <!--            android:src="@drawable/desain_new" />-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="100dp"
+            android:background=""
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/abu"
+                    android:text="Skripsi"
+                    android:textColor="@color/darkOrange"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:backgroundTint="@color/lightOrange"
+                    android:text="Sempro"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/profile"
+                    android:layout_width="60dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="300dp"
+                    android:src="@drawable/user_login" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/background_dashboard"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="637dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="60dp"
+                                android:src="@drawable/Group1"
+                                tools:ignore="SpeakableTextPresentCheck" />
+
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="60dp"
+                                android:src="@drawable/Group2"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+
+                                tools:ignore="SpeakableTextPresentCheck" />
+
+                            <ImageButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/Group3"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:ignore="SpeakableTextPresentCheck" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            tools:layout_marginBottom="30dp">
+
+                            <TextView
+                                android:id="@+id/daftar"
+                                android:layout_width="60dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="28dp"
+                                android:text="Daftar"
+                                android:textColor="@color/black"
+                                android:textSize="18dp"
+                                android:textStyle="normal" />
+
+                            <TextView
+                                android:id="@+id/mekanisme"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="70dp"
+                                android:text="Mekanisme Pendaftaran"
+                                android:textColor="@color/black"
+                                android:textSize="18dp"
+                                android:textStyle="normal" />
+
+                            <TextView
+                                android:id="@+id/syarat"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="74dp"
+                                android:text="syarat"
+                                android:textColor="@color/black"
+                                android:textSize="18dp"
+                                android:textStyle="normal" />
+                        </LinearLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_margin="25dp"
+                            android:background="@drawable/banner_background"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="20dp"
+                                android:orientation="horizontal"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.028"
+                                app:layout_constraintStart_toStartOf="parent"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteY="-1dp">
+
+                                <ImageView
+                                    android:id="@+id/kalendar"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="30dp"
+                                    android:layout_weight="1"
+
+                                    android:src="@android:drawable/ic_menu_my_calendar" />
+
+
+                                <TextView
+                                    android:id="@+id/textView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight="1"
+                                    android:text="Kamis,24 Oktober 2021" />
+
+                                <ImageView
+                                    android:id="@+id/jam"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight="1"
+                                    android:src="@android:drawable/ic_lock_idle_alarm" />
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight="1"
+                                    android:text="09.00 - 10.00" />
+
+                            </LinearLayout>
+
+
+                            <Button
+                                android:layout_width="70dp"
+                                android:layout_height="56dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginLeft="20dp"
+                                android:backgroundTint="@color/abu"
+                                android:text="D4-TI"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.368"
+                                tools:ignore="MissingConstraints"></Button>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="28dp"
+                                android:layout_marginRight="28dp"
+                                android:text="1941720106 - Fransiska Lidya K"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteY="46dp" />
+
+                            <TextView
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="28dp"
+                                android:layout_marginRight="28dp"
+                                android:text="PENGENALAN IDENTITAS DARI BENTUK WAJAH DENGAN AI"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:ignore="MissingConstraints" />
+
+                            <ImageView
+                                android:id="@+id/imageView5"
+                                android:layout_width="24dp"
+                                android:layout_height="17dp"
+                                android:src="@android:drawable/presence_video_busy"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="262dp"
+                                tools:layout_editor_absoluteY="132dp" />
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ruang 4 - sesi 2"
+                                android:textSize="11dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="262dp"
+                                tools:layout_editor_absoluteY="150dp" />
+
+                            <ImageView
+                                android:id="@+id/imageView6"
+                                android:layout_width="46dp"
+                                android:layout_height="15dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginBottom="48dp"
+                                android:src="@drawable/user"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Habibie Ed Dien, S.Kom., M.T."
+                                android:textSize="11dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="54dp"
+                                tools:layout_editor_absoluteY="137dp" />
+
+                            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="31dp"
+                                android:layout_height="29dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginBottom="16dp"
+                                android:src="@drawable/advisors"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+
+                            <TextView
+                                android:id="@+id/penguji"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="28dp"
+                                android:text="Mungki Astiningrum, S.T., M.Kom."
+                                android:textSize="11dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="54dp" />
+
+                            <TextView
+                                android:id="@+id/penguji2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="196dp"
+                                android:layout_marginRight="196dp"
+                                android:layout_marginBottom="12dp"
+                                android:text="Bagas Satya, S.T., M.T."
+                                android:textSize="11dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                tools:ignore="MissingConstraints" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_margin="25dp"
+                            android:background="@drawable/banner_background">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="20dp"
+                                android:orientation="horizontal"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.028"
+                                app:layout_constraintStart_toStartOf="parent"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteY="-1dp">
+
+                                <ImageView
+                                    android:id="@+id/kalendar2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="30dp"
+                                    android:layout_weight="1"
+
+                                    android:src="@android:drawable/ic_menu_my_calendar" />
+
+
+                                <TextView
+                                    android:id="@+id/tgl"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight="1"
+                                    android:text="Kamis,24 Oktober 2021" />
+
+                                <ImageView
+                                    android:id="@+id/jamImg"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="20dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight="1"
+                                    android:src="@android:drawable/ic_lock_idle_alarm" />
+
+                                <TextView
+                                    android:id="@+id/jam2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight="1"
+                                    android:text="09.00 - 10.00" />
+
+                            </LinearLayout>
+
+
+                            <Button
+                                android:layout_width="70dp"
+                                android:layout_height="56dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginLeft="20dp"
+                                android:backgroundTint="@color/abu"
+                                android:text="D4-TI"
+                                android:textColor="@color/black"
+                                android:textSize="12dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.368"
+                                tools:ignore="MissingConstraints"></Button>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="40dp"
+                                android:layout_marginRight="40dp"
+                                android:text="1941720191 - Zalna Rahma N"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteY="44dp" />
+
+                            <TextView
+                                android:layout_width="200dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="28dp"
+                                android:layout_marginRight="28dp"
+                                android:text="PENGENALAN IDENTITAS DARI BENTUK WAJAH DENGAN AI"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:ignore="MissingConstraints" />
+
+                            <ImageView
+                                android:id="@+id/zoomImg"
+                                android:layout_width="24dp"
+                                android:layout_height="17dp"
+                                android:src="@android:drawable/presence_video_busy"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="262dp"
+                                tools:layout_editor_absoluteY="132dp" />
+
+                            <TextView
+                                android:id="@+id/zoom"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ruang 4 - sesi 3"
+                                android:textSize="11dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="262dp"
+                                tools:layout_editor_absoluteY="150dp" />
+
+                            <ImageView
+                                android:id="@+id/pemibimbingImg"
+                                android:layout_width="46dp"
+                                android:layout_height="15dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginBottom="48dp"
+                                android:src="@drawable/user"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+
+                            <TextView
+                                android:id="@+id/pembimbing"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Habibie Ed Dien, S.Kom., M.T."
+                                android:textSize="11dp"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="54dp"
+                                tools:layout_editor_absoluteY="137dp" />
+
+                            <ImageView
+                                android:id="@+id/accecor"
+                                android:layout_width="31dp"
+                                android:layout_height="29dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginBottom="16dp"
+                                android:src="@drawable/advisors"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent" />
+
+                            <TextView
+                                android:id="@+id/penguji3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="28dp"
+                                android:text="Mungki Astiningrum, S.T., M.Kom."
+                                android:textSize="11dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                tools:ignore="MissingConstraints"
+                                tools:layout_editor_absoluteX="54dp" />
+
+                            <TextView
+                                android:id="@+id/penguji4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="196dp"
+                                android:layout_marginRight="196dp"
+                                android:layout_marginBottom="12dp"
+                                android:text="Bagas Satya, S.T., M.T."
+                                android:textSize="11dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                tools:ignore="MissingConstraints" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </LinearLayout>
+                </TableRow>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

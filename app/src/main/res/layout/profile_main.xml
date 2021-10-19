@@ -16,12 +16,12 @@
         android:layout_margin="5dp"
         app:cardBackgroundColor="@color/white">
 
-    <ImageView
-        android:id="@+id/desainAtas"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/desain_new"
-        android:layout_marginBottom="420dp"/>
+        <ImageView
+            android:id="@+id/desainAtas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="420dp"
+            android:src="@drawable/desain_new" />
 
         <ImageView
             android:id="@+id/desainBawah"
