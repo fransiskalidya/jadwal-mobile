@@ -40,51 +40,51 @@
         <ImageView
             android:id="@+id/logo"
             android:layout_width="wrap_content"
-            android:layout_height="200dp"
+            android:layout_height="150dp"
             android:layout_gravity="center"
             android:gravity="center"
             android:src="@drawable/logopolinema"
-            android:layout_marginBottom="100dp"/>
+            android:layout_marginBottom="150dp"/>
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/mainTitle2Card"
-        android:layout_width="360dp"
-        android:layout_height="35dp"
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="20dp"
-        app:cardCornerRadius="7dp"
-        app:cardElevation="6dp"
-        app:cardBackgroundColor="@color/white">
-
-
-        <EditText
-            android:id="@+id/edtnama"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/logo"
-            android:layout_marginLeft="40dp"
-            android:gravity="center"
-            android:hint="Nama"
-            android:inputType="text"
-            android:textColor="@color/black"
-            android:text=""
-            android:textSize="6pt" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mainTitle2Card"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="30dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="7dp"
+            android:layout_gravity="center"
+            app:cardElevation="6dp">
 
 
-        <ImageView
-            android:layout_marginRight="300dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/user_login"/>
+            <EditText
+                android:id="@+id/edtnama"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/logo"
+                android:layout_marginLeft="30dp"
+                android:hint="Nama"
+                android:inputType="text"
+                android:text="Nama"
+                android:textColor="@color/black"
+                android:textSize="6pt" />
 
-    </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/user_login" />
+
+        </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/mainTitle3Card"
-            android:layout_width="360dp"
-            android:layout_height="35dp"
-            android:layout_marginTop="450dp"
-            android:layout_marginLeft="20dp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center"
             app:cardCornerRadius="7dp"
             app:cardElevation="6dp"
             app:cardBackgroundColor="@color/white">
@@ -92,46 +92,47 @@
 
             <EditText
                 android:id="@+id/hedtpswrd"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_below="@id/logo"
-                android:layout_marginLeft="40dp"
-                android:gravity="center"
+                android:layout_marginLeft="30dp"
                 android:hint="Password"
                 android:inputType="textPassword"
+                android:text="Password"
                 android:textColor="@color/black"
-                android:text=""
                 android:textSize="6pt" />
 
 
             <ImageView
-                android:layout_marginRight="300dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/password"/>
 
         </androidx.cardview.widget.CardView>
 
+
         <TextView
             android:id="@+id/lupapswrd"
-            android:layout_width="230dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:layout_gravity="center"
-            android:layout_marginTop="153dp"
-            android:layout_marginLeft="90dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="35dp"
             android:text="@string/textPassword"
             android:textColor="@color/white"
-            android:textStyle="italic"
-            android:textSize="6pt"/>
+            android:textSize="6pt"
+            android:textStyle="italic" />
+
         <ImageButton
             android:id="@+id/redirect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/right_arrow"
+            android:layout_gravity="center"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="60dp"
             android:background="@color/lightOrange"
-            android:layout_marginTop="500dp"
-            android:layout_marginLeft="353dp"/>
+            android:src="@drawable/right_arrow" />
+
 
         <Button
             android:id="@+id/login"
@@ -139,18 +140,19 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:layout_marginTop="230dp"
+            android:layout_marginTop="120dp"
             android:textSize="15dp"
             android:text="@string/login"
+            android:onClick="moveToDashboard"
             android:backgroundTint="@color/DeepPink"/>
 
         <TextView
             android:id="@+id/signin"
-            android:layout_width="230dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="660dp"
-            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="50dp"
             android:text="@string/signin"
             android:textColor="@color/white"
             android:textStyle="italic"
@@ -158,14 +160,15 @@
 
         <Button
             android:id="@+id/daftar"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="200dp"
             android:gravity="center"
-            android:layout_marginTop="310dp"
-            android:layout_marginLeft="132dp"
-            android:textSize="15dp"
-            android:text="@string/SignIn"/>
+            android:onClick="moveToSignIn"
+            android:text="@string/SignIn"
+            android:textSize="12dp" />
 
     </androidx.cardview.widget.CardView>
 </LinearLayout>
