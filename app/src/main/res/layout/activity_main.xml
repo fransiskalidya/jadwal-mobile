@@ -114,29 +114,6 @@
         </androidx.cardview.widget.CardView>
 
 
-        <TextView
-            android:id="@+id/lupapswrd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="110dp"
-            android:layout_marginLeft="35dp"
-            android:text="@string/textPassword"
-            android:textColor="@color/white"
-            android:textSize="6pt"
-            android:textStyle="italic" />
-
-        <ImageButton
-            android:id="@+id/redirect"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="120dp"
-            android:layout_marginTop="110dp"
-            android:background="@color/lightOrange"
-            android:src="@drawable/right_arrow" />
-
-
         <Button
             android:id="@+id/login"
             android:layout_width="120dp"
