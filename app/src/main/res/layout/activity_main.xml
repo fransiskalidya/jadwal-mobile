@@ -30,94 +30,90 @@
             android:id="@+id/subjudul"
             android:layout_width="230dp"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:layout_gravity="center"
             android:layout_marginBottom="265dp"
+            android:gravity="center"
             android:text="@string/subjudul"
             android:textColor="@color/white"
-            android:textSize="6pt"/>
+            android:textSize="6pt" />
 
         <ImageView
             android:id="@+id/logo"
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:layout_gravity="center"
+            android:layout_marginBottom="150dp"
             android:gravity="center"
-            android:src="@drawable/logopolinema"
-            android:layout_marginBottom="150dp"/>
+            android:src="@drawable/logopolinema" />
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/mainTitle2Card"
+            android:id="@+id/mainTitle1Card"
             android:layout_width="250dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginBottom="30dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="7dp"
-            android:layout_gravity="center"
             app:cardElevation="6dp">
 
 
             <EditText
                 android:id="@+id/edtnama"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/logo"
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="45dp"
+                android:gravity="center"
                 android:hint="Nama"
                 android:inputType="text"
                 android:text="Nama"
                 android:textColor="@color/black"
                 android:textSize="6pt" />
 
-
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/user_login" />
-
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/mainTitle3Card"
+            android:id="@+id/mainTitle4Card"
             android:layout_width="250dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="8dp"
+            android:layout_height="35dp"
             android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="7dp"
-            app:cardElevation="6dp"
-            app:cardBackgroundColor="@color/white">
-
+            app:cardElevation="6dp">
 
             <EditText
-                android:id="@+id/hedtpswrd"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:id="@+id/pswrd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/logo"
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="45dp"
+                android:gravity="center"
                 android:hint="Password"
                 android:inputType="textPassword"
                 android:text="Password"
                 android:textColor="@color/black"
                 android:textSize="6pt" />
 
-
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/password"/>
+                android:src="@drawable/password" />
 
         </androidx.cardview.widget.CardView>
 
 
         <TextView
             android:id="@+id/lupapswrd"
-            android:layout_width="wrap_content"
+            android:layout_width="115dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="60dp"
             android:layout_marginLeft="35dp"
+            android:layout_marginTop="60dp"
             android:text="@string/textPassword"
             android:textColor="@color/white"
             android:textSize="6pt"
@@ -125,10 +121,10 @@
 
         <ImageButton
             android:id="@+id/redirect"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_gravity="center"
-            android:layout_marginLeft="120dp"
+            android:layout_marginLeft="110dp"
             android:layout_marginTop="60dp"
             android:background="@color/lightOrange"
             android:src="@drawable/right_arrow" />
@@ -139,12 +135,12 @@
             android:layout_width="120dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:gravity="center"
             android:layout_marginTop="120dp"
-            android:textSize="15dp"
-            android:text="@string/login"
+            android:backgroundTint="@color/DeepPink"
+            android:gravity="center"
             android:onClick="moveToDashboard"
-            android:backgroundTint="@color/DeepPink"/>
+            android:text="@string/login"
+            android:textSize="15dp" />
 
         <TextView
             android:id="@+id/signin"
@@ -155,8 +151,8 @@
             android:layout_marginRight="50dp"
             android:text="@string/signin"
             android:textColor="@color/white"
-            android:textStyle="italic"
-            android:textSize="6pt"/>
+            android:textSize="6pt"
+            android:textStyle="italic" />
 
         <Button
             android:id="@+id/daftar"

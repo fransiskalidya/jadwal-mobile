@@ -6,6 +6,6 @@
     <string name="login">Login</string>
     <string name="signin">Belum punya akun ? Silahkan daftar</string>
     <string name="SignIn">SIGN IN</string>
-    <string name="judul2">REGISTER</string>
+    <string name="judul2">Form Registrasi</string>
     <string name="save">SIMPAN</string>
 </resources>
