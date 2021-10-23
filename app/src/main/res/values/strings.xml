@@ -8,4 +8,5 @@
     <string name="SignIn">SIGN IN</string>
     <string name="judul2">Form Registrasi</string>
     <string name="save">SIMPAN</string>
+    <string name="submit">SUBMIT</string>
 </resources>
