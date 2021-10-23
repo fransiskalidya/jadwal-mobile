@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:background="@color/lightOrange"
     android:orientation="vertical"
-    tools:context=".Dashboard">
+    tools:context=".DashboardSempro">
 
 
     <!--        <ImageView-->
@@ -28,8 +28,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="86dp"
-                android:layout_marginRight="20dp"
                 android:layout_weight="1"
+                android:layout_marginRight="20dp"
                 android:orientation="horizontal">
 
                 <Button
@@ -40,22 +40,22 @@
                     android:layout_marginTop="25dp"
                     android:layout_marginRight="20dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/abu"
+                    android:backgroundTint="@color/lightOrange"
+                    android:textColor="@color/black"
                     android:text="Skripsi"
-                    android:textColor="@color/darkOrange"
                     android:textStyle="bold" />
 
                 <Button
-                    android:id="@+id/sempro"
+                    android:id="@+id/sidang"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="25dp"
                     android:layout_marginRight="30dp"
                     android:layout_weight="1"
-                    android:backgroundTint="@color/lightOrange"
+                    android:backgroundTint="@color/abu"
                     android:text="Sempro"
-                    android:textColor="@color/black"
+                    android:textColor="@color/darkOrange"
                     android:textStyle="bold" />
 
                 <ImageButton
@@ -100,7 +100,7 @@
                                 android:layout_marginLeft="10dp"
                                 android:layout_marginRight="60dp"
                                 android:src="@drawable/group_1"
-                                 />
+                                tools:ignore="SpeakableTextPresentCheck" />
 
                             <ImageButton
                                 android:id="@+id/mekanismeImg"
@@ -111,7 +111,7 @@
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
 
-                               />
+                                tools:ignore="SpeakableTextPresentCheck" />
 
                             <ImageButton
                                 android:id="@+id/syaratImg"
@@ -121,7 +121,7 @@
                                 android:src="@drawable/group_3"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                               />
+                                tools:ignore="SpeakableTextPresentCheck" />
 
                         </LinearLayout>
 
@@ -172,7 +172,7 @@
 
 
                             <LinearLayout
-                                android:id="@+id/linearLayout3"
+                                android:id="@+id/linearLayout"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="20dp"
@@ -238,25 +238,24 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginEnd="28dp"
+                                android:layout_marginRight="28dp"
                                 android:text="1941720106 - Fransiska Lidya K"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.825"
-                                app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.292"
+                                app:layout_constraintVertical_bias="0.303"
                                 tools:ignore="MissingConstraints" />
 
                             <TextView
-                                android:id="@+id/textView6"
                                 android:layout_width="200dp"
                                 android:layout_height="wrap_content"
+                                android:layout_marginEnd="28dp"
+                                android:layout_marginRight="28dp"
                                 android:text="PENGENALAN IDENTITAS DARI BENTUK WAJAH DENGAN AI"
                                 android:textStyle="bold"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.825"
-                                app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
                                 tools:ignore="MissingConstraints" />
 
@@ -267,10 +266,10 @@
                                 android:src="@android:drawable/presence_video_busy"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.779"
+                                app:layout_constraintHorizontal_bias="0.776"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="@+id/linearLayout3"
-                                app:layout_constraintVertical_bias="0.726"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.737"
                                 tools:ignore="MissingConstraints" />
 
                             <TextView
@@ -283,7 +282,7 @@
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintHorizontal_bias="0.925"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="@+id/linearLayout3"
+                                app:layout_constraintTop_toTopOf="@+id/linearLayout"
                                 app:layout_constraintVertical_bias="0.821"
                                 tools:ignore="MissingConstraints" />
 
@@ -309,7 +308,7 @@
                                 app:layout_constraintHorizontal_bias="0.248"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.729"
+                                app:layout_constraintVertical_bias="0.74"
                                 tools:ignore="MissingConstraints" />
 
                             <ImageView
@@ -341,14 +340,13 @@
                                 android:id="@+id/penguji2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginEnd="196dp"
+                                android:layout_marginRight="196dp"
+                                android:layout_marginBottom="12dp"
                                 android:text="Bagas Satya, S.T., M.T."
                                 android:textSize="11dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.216"
-                                app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.935"
                                 tools:ignore="MissingConstraints" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -356,8 +354,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
                             android:layout_margin="25dp"
-                            android:background="@drawable/banner_background">
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginRight="16dp"
+                            android:background="@drawable/banner_background"
+                            app:layout_constraintEnd_toEndOf="parent">
+
                             <LinearLayout
+                                android:id="@+id/linearLayout2"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="20dp"
@@ -406,7 +409,6 @@
 
 
                             <Button
-                                android:id="@+id/button2"
                                 android:layout_width="70dp"
                                 android:layout_height="56dp"
                                 android:layout_marginStart="20dp"
@@ -434,7 +436,7 @@
                                 tools:ignore="MissingConstraints" />
 
                             <TextView
-                                android:id="@+id/textView7"
+                                android:id="@+id/textView5"
                                 android:layout_width="200dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginEnd="28dp"
@@ -456,7 +458,7 @@
                                 app:layout_constraintHorizontal_bias="0.776"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.743"
+                                app:layout_constraintVertical_bias="0.754"
                                 tools:ignore="MissingConstraints" />
 
                             <TextView
@@ -470,7 +472,7 @@
                                 app:layout_constraintHorizontal_bias="0.925"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.827"
+                                app:layout_constraintVertical_bias="0.848"
                                 tools:ignore="MissingConstraints" />
 
                             <ImageView
@@ -495,7 +497,7 @@
                                 app:layout_constraintHorizontal_bias="0.248"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.751"
+                                app:layout_constraintVertical_bias="0.745"
                                 tools:ignore="MissingConstraints" />
 
                             <ImageView
@@ -513,14 +515,15 @@
                                 android:id="@+id/penguji3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_marginBottom="28dp"
                                 android:text="Mungki Astiningrum, S.T., M.Kom."
                                 android:textSize="11dp"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintHorizontal_bias="0.276"
                                 app:layout_constraintStart_toStartOf="parent"
-                                app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.854"
+                                app:layout_constraintTop_toTopOf="@+id/linearLayout2"
+                                app:layout_constraintVertical_bias="0.987"
                                 tools:ignore="MissingConstraints" />
 
                             <TextView
@@ -534,7 +537,7 @@
                                 app:layout_constraintHorizontal_bias="0.216"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                app:layout_constraintVertical_bias="0.94"
+                                app:layout_constraintVertical_bias="0.929"
                                 tools:ignore="MissingConstraints" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
