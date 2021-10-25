@@ -2,9 +2,9 @@
 
 **Membuat Project Jadwal Sidang Sempro dan Skripsi**
 1. Klik bagian “Start A New Android Studio Project” Kemudian pilih “Empty Activity” dan klik “Next” :
-2. Buat nama project sesuai keinginan, kemudian gunakan Bahasa pemrograman Kotlin dengan Minimum API Level 19: KitKat 4.4 dan centang bagian This Project will support instant apps dan Finish.
+2. Buat nama project sesuai keinginan, kemudian gunakan Bahasa pemrograman Java dengan Minimum API Level 19: KitKat 4.4 dan centang bagian This Project will support instant apps dan Finish.
 3. Biarkan proses Sync mengunduh file-file yang diperlukan sampai dengan selesai
-4. Jika proses telah selesai ganti baris kedua dengan nama <RelativeLayout dan diakhiri dengan </RelativeLayout
+4. Jika proses telah selesai ganti baris kedua dengan nama <LinearLayout dan diakhiri dengan </LinearLayout
 5. Pada bagian Android 🡪 app 🡪 res 🡪 drawable, simpan foto yang akan dijadikan sebagai ImageView dengan cara copy foto kemudian klik kanan bagian drawable dan klik paste kemudian tinggal next sampai selesai.
 6. Kemudian membuat project seperti pada contoh sebelumnya untuk source code nya bisa dilihat lebih jelasnya lagi di github [link github](https://github.com/fransiskalidya/jadwal-mobile.git)
 7. Hasil Apliakasi Jadwal Sidang Sempro dan Skripsi:
